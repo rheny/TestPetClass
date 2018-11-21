@@ -22,4 +22,4 @@ for line in sys.stdin:
         lastword = word
         
 if lastword is not None:
-    print("%s\t%d occurences" % (lastword, total))
+    print("%s\t%d occurences C:\Users\arheny\Downloads\python\petclass" % (lastword, total))
