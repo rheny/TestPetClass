@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-
+# hoyoyoyo
 import sys
 total = 0
 lastword = None
