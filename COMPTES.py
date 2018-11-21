@@ -3,7 +3,7 @@ from keras.layers.core import Flatten, Dense, Dropout
 from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D
 from keras.optimizers import SGD
 import numpy as np
-# recuperer wayy2
+# 12 12 12 12 
 def VGG_16(weights_path=None):
     model = Sequential()
     model.add(ZeroPadding2D((1,1),input_shape=(3,224,224)))
