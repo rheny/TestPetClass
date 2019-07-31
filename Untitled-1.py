@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-# 121212124s
+# 1212121245
 import sys
 total = 0
 lastword = None
