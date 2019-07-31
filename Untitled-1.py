@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-# 12121212
+# 121212124s
 import sys
 total = 0
 lastword = None
@@ -23,3 +23,15 @@ for line in sys.stdin:
         
 if lastword is not None:
     print("%s\t%d occurences C:\Users\arheny\Downloads\python\petclass" % (lastword, total))
+
+
+	df = spark.createDataFrame(
+		[(0, "a"), (1, "b"), (2, "c"), (3, "a"), (4, "a"), (5, "c")],
+		["id", "category"])
+
+	indexer = StringIndexer(inputCol="category", outputCol="categoryIndex")
+	indexed = indexer.fit(df).transform(df)
+	indexed.show()
+    Row(features=DenseVector
+    numpy.ndarray
+    TypeError: 'DataFrame' object is not callable
